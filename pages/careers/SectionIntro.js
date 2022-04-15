@@ -1,8 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/Careers/SectionIntro.module.css";
 
-// import OurCultureImage from "../../public/images/careers/OurCulture.png";
-
 const SectionIntro = ({ titleT, titleB, section, imagePath }) => {
   return (
     <div className={styles.grid}>
@@ -18,10 +16,14 @@ const SectionIntro = ({ titleT, titleB, section, imagePath }) => {
       </div>
       <div className={styles.grid_right}>
         <div className={styles.image_container}>
-          <Image
-            src={require(`../../public/images/careers/${imagePath}`)}
-            alt="Our Services"
-          />
+          {imagePath ? (
+            <Image
+              src={require(`../../public/images/careers/${imagePath}`)}
+              alt="Our Services"
+            />
+          ) : (
+            <div></div>
+          )}
         </div>
       </div>
     </div>

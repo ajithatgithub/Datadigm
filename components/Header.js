@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import styles from "../styles/components/Header.module.css";
+import styles from "../styles/Components/Header.module.css";
 
 import Dropdown from "./Dropdown";
 

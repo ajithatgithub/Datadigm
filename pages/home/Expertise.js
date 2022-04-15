@@ -15,22 +15,23 @@ const Expertise = ({ sectionData }) => {
       </div>
       <div className={styles.bg}></div>
       <div className={styles.items}>
-        {sectionData.map(
-          (
-            { category, title, description, imagePath, flexDirectionInvert },
-            index
-          ) => (
-            <Feature
-              key={index}
-              category={category}
-              title={title}
-              description={description}
-              section="expertise"
-              imageSrc={imagePath}
-              flexDirectionInvert={flexDirectionInvert}
-            />
-          )
-        )}
+        {sectionData &&
+          sectionData.map(
+            (
+              { category, title, description, imagePath, flexDirectionInvert },
+              index
+            ) => (
+              <Feature
+                key={index}
+                category={category}
+                title={title}
+                description={description}
+                section="expertise"
+                imageSrc={imagePath}
+                flexDirectionInvert={flexDirectionInvert}
+              />
+            )
+          )}
         {/* <Feature
               category="Planning"
               title="Data Strategy Consulting"
