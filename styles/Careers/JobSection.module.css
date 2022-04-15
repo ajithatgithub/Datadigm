@@ -1,0 +1,244 @@
+.main {
+  position: relative;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  padding: 24px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: inherit;
+}
+
+.btn {
+  margin-top: 45px;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 8rem;
+  padding: 12px;
+  background-color: #4559d2;
+  color: white;
+  margin: auto;
+  width: 8rem;
+}
+
+/* Jobs */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.jobsMain {
+  padding: 32px;
+  border-radius: 5px;
+  border-top: 5px solid #4559d2;
+  background-color: #fff;
+  box-shadow: 0 20px 30px -19px rgb(61 43 69 / 58%);
+}
+
+.jobsMain:hover {
+  /* transform: scale(1.01); */
+  transition-duration: 300ms;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 30px 24px;
+}
+
+.type,
+.location {
+  font-size: 16px;
+  font-weight: inherit;
+  padding: 12px 24px;
+  color: #707070;
+}
+
+.hoverPart {
+  opacity: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.hoverPart:hover {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 24px;
+  height: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 5rem;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .jobsMain {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 16px;
+    padding: 12px 8px;
+  }
+
+  .type,
+  .location {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .hoverPart {
+    padding: 16px;
+  }
+
+  .hoverPart > .btn {
+    width: 3rem;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .btn {
+    width: 8rem;
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 70px 0;
+  }
+
+  .jobsMain {
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 18px;
+    padding: 20px 12px;
+  }
+
+  .type,
+  .location {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .hoverPart {
+    padding: 16px;
+  }
+
+  .hoverPart > .btn {
+    width: 5rem;
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .jobsMain {
+    padding: 28px;
+  }
+
+  .title {
+    font-size: 22px;
+    padding: 30px 20px;
+  }
+
+  .type,
+  .location {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .header {
+    padding: 24px;
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .btn {
+    width: 8rem;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 120px 0;
+  }
+
+  .jobsMain {
+    padding: 32px;
+  }
+
+  .title {
+    font-size: 30px;
+    padding: 30px 24px;
+  }
+
+  .type,
+  .location {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .hoverPart {
+    padding: 24px;
+  }
+
+  .hoverPart > .btn {
+    width: 8rem;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 45px;
+  }
+}

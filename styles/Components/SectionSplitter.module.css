@@ -1,0 +1,76 @@
+.main {
+  margin: 0;
+  position: relative;
+}
+
+.content {
+  padding: 150px 0;
+}
+
+.container {
+  padding: 0 180px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid_left h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.grid_right,
+.grid_left {
+  padding: 0 32px;
+}
+
+.grid_right span,
+.grid_right p {
+  display: block;
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
+.grid_right span {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid_left h1 {
+    font-size: 20px;
+  }
+
+  .grid_right span,
+  .grid_right p {
+    font-size: 22px;
+  }
+
+  .grid_left {
+    padding: 0 32px 0 0;
+    min-width: 190px;
+    max-width: 190px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid_right span,
+  .grid_right p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .grid_right span,
+  .grid_right p {
+    font-size: 22px;
+  }
+
+  .grid_left h1 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}

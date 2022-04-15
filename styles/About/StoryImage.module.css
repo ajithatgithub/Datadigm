@@ -1,0 +1,32 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid_left,
+.grid_right {
+  padding: 24px;
+}
+
+.grid_left .image_container {
+  padding-bottom: 80px;
+}
+
+.grid_right .image_container {
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid_left,
+  .grid_right {
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .grid_left,
+  .grid_right {
+    padding: 16px;
+  }
+}

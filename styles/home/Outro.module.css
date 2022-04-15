@@ -1,0 +1,194 @@
+.main {
+  margin: 0;
+  position: relative;
+  background-color: #000;
+  color: #fff;
+}
+
+.content {
+  padding: 150px 0;
+}
+
+.container {
+  padding: 0 180px;
+}
+
+.grid_left {
+  padding: 20px;
+}
+
+.wrapper h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.social,
+.grid,
+.section_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.social_item p {
+  font-size: 16px;
+}
+
+.social_item {
+  padding-right: 30px;
+}
+
+.section_item {
+  padding: 20px 40px;
+}
+
+.section_item_title h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section_list_items {
+  padding: 20px 0;
+}
+
+.section_list_item {
+  padding: 12px 0;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 100px;
+  }
+
+  .wrapper h1 {
+    font-size: 24px;
+  }
+
+  .social {
+    padding: 12px 0;
+    flex-direction: column;
+  }
+
+  .social_item p {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .section_items {
+    padding: 16px 0;
+  }
+
+  .section_item {
+    padding: 16px;
+  }
+
+  .section_item_title h5 {
+    font-size: 12px;
+  }
+
+  .section_list_items {
+    padding: 12px 0;
+  }
+
+  .section_list_item {
+    padding: 5px 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    padding: 120px 0;
+  }
+
+  .container {
+    padding: 0 150px;
+  }
+
+  .wrapper h1 {
+    font-size: 30px;
+  }
+
+  .social {
+    padding: 12px 0;
+    flex-direction: row;
+  }
+
+  .social_item p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .section_items {
+    padding: 18px 0;
+  }
+
+  .section_item {
+    padding: 18px 28px;
+  }
+
+  .section_item_title h5 {
+    font-size: 14px;
+  }
+
+  .section_list_items {
+    padding: 16px 0;
+  }
+
+  .section_list_item {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .content {
+    padding: 150px 0;
+  }
+
+  .container {
+    padding: 0 180px;
+  }
+
+  .wrapper h1 {
+    font-size: 36px;
+  }
+
+  .social {
+    padding: 12px 0;
+    flex-direction: row;
+  }
+
+  .social_item p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .section_items {
+    padding: 30px 0;
+  }
+
+  .section_item {
+    padding: 20px 40px;
+  }
+
+  .section_item_title h5 {
+    font-size: 18px;
+  }
+
+  .section_list_items {
+    padding: 20px 0;
+  }
+
+  .section_list_item {
+    padding: 12px 0;
+    font-size: 16px;
+  }
+}

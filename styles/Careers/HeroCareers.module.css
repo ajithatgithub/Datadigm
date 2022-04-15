@@ -1,0 +1,206 @@
+.main {
+  position: relative;
+  margin: 0;
+}
+
+.outerGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.content {
+  padding: 150px 0;
+}
+
+.container {
+  padding: 0 180px;
+}
+
+.body h1 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.body p {
+  font-size: 24px;
+}
+
+.btn {
+  margin-top: 45px;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 8rem;
+  padding: 12px;
+  background-color: #4559d2;
+  color: white;
+}
+
+/* @media screen and (min-width: 360px) {
+  .outerGrid {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 80px 0 0 0;
+  }
+
+  .content {
+    padding: 30px 0;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .body h1 {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 0;
+  }
+  .body p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .btn {
+    margin-top: 12px;
+    width: 3rem;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .outerGridLeft {
+    z-index: 10;
+    background-color: #fff;
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  .outerGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+
+  .content {
+    padding: 80px 0;
+  }
+
+  .container {
+    padding: 0px 100px;
+  }
+
+  .body h1 {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  .body p {
+    font-size: 10px;
+  }
+
+  .btn {
+    margin-top: 12px;
+    max-width: 3rem;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    padding: 100px 0;
+  }
+
+  .container {
+    padding: 0px 120px;
+  }
+
+  .body h1 {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+
+  .body p {
+    font-size: 16px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    max-width: 5rem;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 0 150px;
+  }
+
+  .body h1 {
+    font-size: 40px;
+  }
+
+  .body p {
+    font-size: 20px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    max-width: 6rem;
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .container {
+    padding: 0 0 0 180px;
+  }
+
+  .body {
+    margin-top: 35px;
+  }
+
+  .body h1 {
+    font-size: 56px;
+    /* padding: 20px 0; */
+  }
+
+  .body p {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .btn {
+    margin-top: 30px;
+    max-width: 8rem;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    padding: 0 150px 0 220px;
+  }
+
+  .body h1 {
+    font-size: 60px;
+    padding: 20px 0;
+  }
+
+  .body p {
+    font-size: 25px;
+  }
+
+  .btn {
+    margin-top: 45px;
+    max-width: 9rem;
+    padding: 16px;
+    font-size: 18px;
+  }
+}

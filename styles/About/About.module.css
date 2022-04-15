@@ -1,0 +1,60 @@
+.joinUs {
+  margin: 0;
+}
+
+.header h1,
+.header span {
+  display: block;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: inherit;
+}
+
+.header span {
+  font-size: 75px;
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 60px 0;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .header h1,
+  .footer,
+  .footer span {
+    font-size: 32px;
+  }
+
+  .header span {
+    font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header h1,
+  .footer,
+  .footer span {
+    font-size: 36px;
+  }
+
+  .header span {
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .header h1,
+  .footer,
+  .footer span {
+    font-size: 56px;
+  }
+
+  .header span {
+    font-size: 70px;
+  }
+}

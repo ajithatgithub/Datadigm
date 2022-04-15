@@ -1,0 +1,15 @@
+.main {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid_left,
+.grid_right {
+  display: block;
+  flex: 1;
+}
+
+.grid_right {
+  margin-top: 200px;
+}

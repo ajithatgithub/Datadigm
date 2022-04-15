@@ -1,0 +1,108 @@
+.grid {
+  display: grid;
+  grid-template-columns: 50% 60%;
+  align-items: center;
+  padding: 90px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: inherit;
+}
+
+.header p {
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 100;
+}
+
+.grid_right {
+  padding-left: 20px;
+}
+
+.imageContainer {
+  padding: 24px;
+}
+
+.imageContainer img {
+  border-radius: 12px;
+}
+
+.imageContainer:nth-child(even) {
+  padding-left: 140px;
+}
+
+.imageContainer:nth-child(odd) {
+  padding-right: 140px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    padding: 0;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+  .header p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    padding: 0;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+  .header p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    padding: 0;
+  }
+
+  .header h1 {
+    font-size: 42px;
+  }
+
+  .header p {
+    font-size: 18px;
+  }
+
+  .imageContainer:nth-child(even) {
+    padding-left: 200px;
+  }
+
+  .imageContainer:nth-child(odd) {
+    padding-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .grid {
+    padding: 90px 0;
+  }
+
+  .header h1 {
+    font-size: 48px;
+  }
+
+  .header p {
+    font-size: 20px;
+  }
+
+  .imageContainer:nth-child(even) {
+    padding-left: 140px;
+  }
+
+  .imageContainer:nth-child(odd) {
+    padding-right: 140px;
+  }
+}

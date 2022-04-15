@@ -1,0 +1,93 @@
+.wrapper h1 {
+  font-size: 60px;
+  font-weight: inherit;
+  inline-size: 50%;
+}
+
+.ViewAll {
+  padding: 60px;
+  align-items: center;
+}
+
+.btn {
+  text-align: center;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  max-width: 8rem;
+  margin: auto;
+  padding: 12px;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #1a0486;
+  color: white;
+  border: 3px solid #eee;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper h1 {
+    font-size: 40px;
+  }
+
+  .ViewAll {
+    padding: 40px;
+  }
+
+  .btn {
+    max-width: 7rem;
+    padding: 8px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper h1 {
+    font-size: 48px;
+  }
+
+  .ViewAll {
+    padding: 48px;
+  }
+
+  .btn {
+    max-width: 7rem;
+    padding: 9px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .wrapper h1 {
+    font-size: 60px;
+    margin: 100px 0;
+  }
+
+  .ViewAll {
+    padding: 48px;
+  }
+
+  .btn {
+    max-width: 7rem;
+    padding: 9px;
+    border-radius: 10px;
+  }
+}
+
+/* .grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
+
+.gridItem {
+  padding: 20px;
+  height: 100%;
+  border: 1px solid #eee;
+}
+
+.selected {
+  flex: 1;
+  width: 100%;
+} */

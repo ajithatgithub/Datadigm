@@ -1,0 +1,102 @@
+.main {
+  margin: 0;
+  position: relative;
+}
+
+.content {
+  padding: 150px 0 80px 0;
+}
+
+.container {
+  padding: 0 180px;
+}
+
+.hero {
+  padding-top: 120px;
+  /* height: 50vh; */
+}
+
+.wrapper h1,
+.wrapper span {
+  display: block;
+}
+
+.wrapper {
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.wrapper h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 80px 0;
+  }
+
+  .container {
+    padding: 0 100px;
+  }
+
+  .wrapper h1 {
+    font-size: 42px;
+    font-weight: inherit;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    padding: 100px 0;
+  }
+
+  .container {
+    padding: 0 120px;
+  }
+
+  .wrapper h1 {
+    font-size: 52px;
+    font-weight: inherit;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    padding: 120px 0;
+  }
+
+  .container {
+    padding: 0 150px;
+  }
+
+  .hero {
+    padding-top: 150px;
+  }
+
+  .wrapper h1 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .content {
+    padding: 150px 0;
+  }
+
+  .container {
+    padding: 0 180px;
+  }
+
+  .wrapper {
+    line-height: 1.3;
+  }
+
+  .hero {
+    padding-top: 200px;
+  }
+
+  .wrapper h1 {
+    font-size: 60px;
+  }
+}

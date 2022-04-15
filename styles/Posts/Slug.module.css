@@ -1,0 +1,23 @@
+.challengeWrapper {
+  padding: 120px 0;
+}
+
+.challenge {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.challenge span {
+  font-weight: 500;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.challenge p,
+.challenge span {
+  margin: 0;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 2;
+}
