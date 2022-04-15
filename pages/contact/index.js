@@ -8,7 +8,8 @@ const Contact = () => {
       <SectionLayout>
         <div className={styles.header}>
           <h1>
-            Hey! Let's Talk <span> about our next project!</span>
+            Hey! Lets Talk
+            <span> about our next project!</span>
           </h1>
         </div>
       </SectionLayout>

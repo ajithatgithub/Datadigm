@@ -1,4 +1,5 @@
 import styles from "../../styles/Services/Services.module.css";
+import Feature from "../../components/Feature";
 
 const Services = ({ sectionData }) => {
   return (
